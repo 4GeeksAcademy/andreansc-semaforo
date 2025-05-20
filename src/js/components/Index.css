@@ -1,0 +1,52 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.poste {
+  width: 10px;
+  height: 50px;
+  background-color: black;
+}
+
+
+.semaforo {
+  width: 100px;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.light {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: orange;
+}
+
+.green {
+  background-color: green;
+}
+
+
+.light.active {
+  opacity: 1;
+}
